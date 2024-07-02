@@ -1,0 +1,5 @@
+ESPDebugger	KEYWORD1
+begin	KEYWORD2
+handle	KEYWORD2
+print	KEYWORD2
+setMaxLogSize	KEYWORD2
