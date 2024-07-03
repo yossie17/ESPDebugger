@@ -5,12 +5,13 @@
 #include <WiFi.h>
 #include <WebServer.h>
 #include <RemoteDebug.h>
+#include <ArduinoOTA.h>
 #include <time.h>
 
 class ESPDebugger {
   public:
     ESPDebugger(int webPort = 80);
-    void begin(const char* ssid, const char* password);
+    void begin(const char* ssid, const char* password, const char* hostname = "ESP32");
     void handle();
     void print(String message);
     void setMaxLogSize(int size);
