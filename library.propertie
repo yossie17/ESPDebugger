@@ -7,3 +7,4 @@ paragraph=Provides a web interface for viewing debug logs from an ESP32.
 category=Communication
 url=http://example.com/
 architectures=esp32
+includes=ESPDebugger.h
